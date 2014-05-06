@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+before = Time.now.getutc
+
 def isPrime(n)
 
 	if n == 1
@@ -39,3 +41,7 @@ end
 numero = 600851475143
 
 puts getMaxFactorPrime(numero)
+
+after = Time.now.getutc
+
+puts "Execution Time = "+(after - before).to_s+" seconds."

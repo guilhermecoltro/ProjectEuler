@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+before = Time.now.getutc
+
 def multiples_of_3_and_5(n)
 
 	sum = 0
@@ -15,3 +17,7 @@ def multiples_of_3_and_5(n)
 end
 
 puts multiples_of_3_and_5(1000)
+
+after = Time.now.getutc
+
+puts "Execution Time = "+(after - before).to_s+" seconds."
