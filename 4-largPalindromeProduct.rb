@@ -57,9 +57,8 @@ def largPalinProduct(dig)
 
 end
 
-
 puts largPalinProduct(3)
 
 after = Time.now.getutc
 
-puts "Execution Time = "+(after - before).to_s+" seconds."
+puts "Runtime = "+(after - before).to_s+" seconds."

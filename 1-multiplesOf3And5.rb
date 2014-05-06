@@ -20,4 +20,4 @@ puts multiples_of_3_and_5(1000)
 
 after = Time.now.getutc
 
-puts "Execution Time = "+(after - before).to_s+" seconds."
+puts "Runtime = "+(after - before).to_s+" seconds."

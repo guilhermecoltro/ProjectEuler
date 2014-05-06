@@ -34,4 +34,4 @@ puts genFibo(4000000)
 
 after = Time.now.getutc
 
-puts "Execution Time = "+(after - before).to_s+" seconds."
+puts "Runtime = "+(after - before).to_s+" seconds."
