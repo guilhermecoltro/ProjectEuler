@@ -23,7 +23,7 @@ def getMaxFactorPrime(num)
 	n = -1
 
 	if isPrime(num)
-		return "Este Número é Primo"
+		return "This Number is Prime"
 	end
 
 	for i in 2..(Math.sqrt(num)) do
