@@ -58,7 +58,7 @@ def largPalinProduct(dig)
 end
 
 
-puts largPalinProduct(2)
+puts largPalinProduct(3)
 
 after = Time.now.getutc
 
