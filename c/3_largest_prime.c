@@ -14,7 +14,7 @@ int isPrime(long int n);
 int main(){
 	int begin = clock();
 	long int n = 600851475143;
-	printf("Result: %d\nExecution Time: %dms\n", largest(n), (int) clock()-begin);
+	printf("Result: %d\nRuntime: %dms\n", largest(n), (int) clock()-begin);
 	return 0;
 }
 

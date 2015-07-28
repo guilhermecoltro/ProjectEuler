@@ -13,7 +13,7 @@ int fibo();
 
 int main(){
 	int begin = clock();
-	printf("Result: %i\nExecution Time: %ims\n", fibo(), (int) clock()-begin);
+	printf("Result: %i\nRuntime: %ims\n", fibo(), (int) clock()-begin);
 	return 0;
 }
 
