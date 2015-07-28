@@ -12,7 +12,7 @@ int multiples();
 
 int main(){
 	int begin = clock();
-	printf("Result: %d\nRuntime: %dms\n", multiples(), (int) clock()-begin);
+	printf("Result: %d\nRuntime: %dms\n", multiples(), (int) (clock()-begin)/1000);
 	return 0;
 }
 

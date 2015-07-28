@@ -18,7 +18,7 @@ int q_multiples(int n, int from, int to);
 int main(){
 	int begin = clock();
 	int digits = 3;
-	printf("Result: %d\nRuntime: %dms\n", largest(digits), (int) clock()-begin);
+	printf("Result: %d\nRuntime: %dms\n", largest(digits), (int) (clock()-begin)/1000);
 	return 0;
 }
 
